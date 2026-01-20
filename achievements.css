@@ -1,0 +1,440 @@
+/* ===== ACHIEVEMENTS SECTION STYLES ===== */
+.achievements-section {
+  background: transparent;
+}
+
+.achievements-container {
+  width: min(1200px, 92%);
+  margin: auto;
+}
+
+.achievements-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.achievements-subtitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.achievements-subtitle-line {
+  width: 40px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #f59e0b);
+}
+
+.achievements-subtitle-line.reverse {
+  background: linear-gradient(90deg, #f59e0b, transparent);
+}
+
+.achievements-subtitle-text {
+  color: #f59e0b;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+}
+
+.achievements-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #ffffff, #e2e2e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.achievements-description {
+  color: #aaa;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.achievement-card {
+  text-align: left;
+}
+
+.achievement-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.achievement-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievement-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.achievement-year {
+  color: #f59e0b;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.achievement-text {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.achievement-text strong {
+  color: #f59e0b;
+}
+
+.research-paper {
+  background: rgba(90, 14, 181, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.research-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.research-title {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.research-badge {
+  background: rgba(16, 185, 129, 0.2);
+  color: #10b981;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.research-details {
+  color: #ccc;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.cert-list {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.cert-list strong {
+  color: var(--accent2);
+}
+
+.academic-journey {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.journey-title {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.journey-item {
+  padding: 25px;
+  border-radius: 16px;
+  border-left: 4px solid;
+  text-align: center;
+}
+
+.journey-item.msc {
+  background: rgba(90, 14, 181, 0.1);
+  border-left-color: var(--accent1);
+}
+
+.journey-item.hsc {
+  background: rgba(16, 185, 129, 0.1);
+  border-left-color: #10b981;
+}
+
+.journey-item.sslc {
+  background: rgba(11, 110, 161, 0.1);
+  border-left-color: var(--accent2);
+}
+
+.journey-icon {
+  color: var(--accent1);
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.journey-item.hsc .journey-icon {
+  color: #10b981;
+}
+
+.journey-item.sslc .journey-icon {
+  color: var(--accent2);
+}
+
+.achievements-container {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+}
+
+.achievements-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.achievements-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.achievements-subtitle-line {
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent1), transparent);
+}
+
+.achievements-subtitle-line.reverse {
+  background: linear-gradient(90deg, transparent, var(--accent2));
+}
+
+.achievements-subtitle-text {
+  color: var(--accent1);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.achievements-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.achievements-description {
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.achievement-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.achievement-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievement-icon i {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.achievement-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.achievement-year {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.achievement-text {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.research-paper {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
+
+.research-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.research-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.research-badge {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.research-details {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.cert-list {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.academic-journey {
+  margin-top: 60px;
+}
+
+.journey-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.journey-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.journey-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent1);
+}
+
+.journey-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--accent1);
+}
+
+.journey-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.journey-score {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, var(--accent1), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.journey-details {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Achievement-specific colors */
+.achievement-icon-1 { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.achievement-year-1 { color: #f59e0b; }
+
+.achievement-icon-2 { background: linear-gradient(135deg, var(--accent1), #5a0eb5); }
+.achievement-year-2 { color: var(--accent1); }
+
+.achievement-icon-3 { background: linear-gradient(135deg, var(--accent2), #0b6ea1); }
+.achievement-year-3 { color: var(--accent2); }
+
+@media (max-width: 768px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .journey-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.journey-subtitle {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.journey-score {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.journey-details {
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
